@@ -36,6 +36,7 @@ This is an Awesome List-style webpage for KTON, the institutional-grade liquid s
   - [Comparisons](#comparisons)
   - [Community \& Social](#community--social)
   - [Media Kit \& Branding](#media-kit--branding)
+  - [License](#license)
 
 ---
 
@@ -165,3 +166,9 @@ KTON sets the standard for modular, upgradable, and security-focused liquid stak
 ---
 
 **Awesome KTON** aims to be the go-to resource for users, developers, and institutions seeking to maximize the potential of liquid staking on TON. For the latest updates, follow the official channels and contribute to the growing KTON ecosystem!
+
+---
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE). Feel free to use, share, and contribute to this project.
