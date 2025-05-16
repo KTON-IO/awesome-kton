@@ -34,7 +34,6 @@ This is an Awesome List-style webpage for KTON, the institutional-grade liquid s
   - [Security \& Audits](#security--audits)
   - [Developer Resources](#developer-resources)
   - [Comparisons](#comparisons)
-  - [Roadmap \& Future Plans](#roadmap--future-plans)
   - [Community \& Social](#community--social)
   - [Media Kit \& Branding](#media-kit--branding)
 
@@ -67,7 +66,7 @@ KTON is built on the **LST V2 (Liquid Staking Token Version 2)** framework devel
 - **MEV Optimization:** Maximizes staking returns through validator efficiency.
 - **Security Audited:** Comprehensive audit completed in April 2025; all critical issues addressed.
 
-For a visual overview and technical deep dive, see the %20GitHub%5D(https%3A%2F%2Fgithub.com%2FKTON-IO%2Fliquid-staking-contract)%5Bstep-e62564%2Cartifact%2C0).
+For a visual overview and technical deep dive, see the [GitHub](https://github.com/KTON-IO/liquid-staking-contract).
 
 ---
 
@@ -76,7 +75,7 @@ For a visual overview and technical deep dive, see the %20GitHub%5D(https%3A%2F%
 KTON is designed to be a core building block in the TON DeFi ecosystem. $KTON can be used as:
 
 - **Collateral in Lending Protocols**
-- **Liquidity on DEXs:** Trade $KTON on [STON.fi](https://app.ston.fi/swap?ft=TON&tt=EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw&chartVisible=false), [DeDust](https://dedust.io/swap/TON/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw)
+- **Liquidity on DEXs:** Trade $KTON on [STON.fi](https://app.ston.fi/swap?ft=TON&tt=EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw), [DeDust](https://dedust.io/swap/TON/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw)
 - **Yield Farming & Aggregators**
 - **DeFi Apps:** Integrated with major TON DeFi protocols, and compatible with new entrants like Ethena and Curve Finance.
 
@@ -144,21 +143,7 @@ KTON sets the standard for modular, upgradable, and security-focused liquid stak
 
 ---
 
-## Roadmap & Future Plans
-
-- **2025:**
-  - Launch of DAO governance and dual-token model
-  - Vesting contract support for institutional clients and OTC deals
-  - Further DeFi integrations (e.g., with Curve Finance, Ethena)
-  - Expansion into US and global markets
-  - Ongoing upgrades to LST V2 architecture and security enhancements
-- **Beyond:**
-  - Continued focus on security, composability, and institutional adoption
-  - New staking strategies and flexible pool management
-
----
-
-## Community & Social
+## Community \& Social
 
 - **Telegram Group:** [@kton_group](https://t.me/kton_group)
 - **Telegram Mini App:** [@ktonio_bot](https://t.me/ktonio_bot)
@@ -168,9 +153,9 @@ KTON sets the standard for modular, upgradable, and security-focused liquid stak
 
 ---
 
-## Media Kit & Branding
+## Media Kit \& Branding
 
-- **Logos & Symbols:** See %5D(https%3A%2F%2Fwww.notion.so%2F1a1811267273809b8145e1d4d457db77)%20for%20official%20SVG%2FPNG%20assets%2C%20color%20palettes%2C%20and%20usage%20guidelines%5Bstep-dc5e76%2Cartifact%2C0).
+- **Logos & Symbols:** See [KTON Media Kit](https://tonx.notion.site/KTON-Media-Kit-1a1811267273809b8145e1d4d457db77) for official SVG/PNG assets, color palettes, and usage guidelines.
 - **Wordmarks:** Available in multiple formats for use in presentations, websites, and integrations.
 
 
