@@ -66,7 +66,7 @@ KTON is built on the **LST V2 (Liquid Staking Token Version 2)** framework devel
 - **MEV Optimization:** Maximizes staking returns through validator efficiency.
 - **Security Audited:** Comprehensive audit completed in April 2025; all critical issues addressed.
 
-For a visual overview and technical deep dive, see the [GitHub](https://github.com/KTON-IO/liquid-staking-contract).
+For a visual overview and technical deep dive, see the [KTON GitHub repository](https://github.com/KTON-IO/liquid-staking-contract).
 
 ---
 
@@ -111,6 +111,9 @@ KTON employs a decentralized governance model with advanced features:
 - Enhanced role restrictions
 - Strong validation and error handling
 - Modular and upgradable contract design
+
+**Audit Report:**
+- [KTON Final Audit Report](https://github.com/KTON-IO/liquid-staking-contract/blob/v2/KTON-Final-Audit-Report.pdf)
 
 ---
 
