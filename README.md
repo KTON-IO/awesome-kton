@@ -48,6 +48,7 @@ This is an Awesome List-style webpage for KTON, the institutional-grade liquid s
 - **TON App Listing:** [ton.app/staking/kton-lst?id=4695](https://ton.app/staking/kton-lst?id=4695)
 - **Whitepaper & Docs:** [github.com/KTON-IO/liquid-staking-contract](https://github.com/KTON-IO/liquid-staking-contract)
 - **Medium Blog:** [medium.com/kton-io](https://medium.com/kton-io)
+- **Gitbook Pages:** [kton-io.github.io](https://kton-io.github.io/)
 
 **What is KTON?**  
 KTON is a liquid staking protocol on TON, allowing users to deposit TON and receive $KTON tokens. These tokens represent a claim on the staked assets and can be used across DeFi protocols for trading, lending, and yield strategies, all while continuing to earn staking rewards. There is no minimum lock-up, and users can start with as little as 1 TON.
@@ -125,6 +126,7 @@ KTON employs a decentralized governance model with advanced features:
 - **API & SDK:** See [TONX API](https://tonx.ai/) for RPC and developer tools used by KTON and other TON dApps.
 - **Telegram Mini App:** [@ktonio_bot](https://t.me/ktonio_bot) for instant staking and DeFi access in Telegram.
 - **Community Support:** [KTON Group Telegram](https://t.me/kton_group)
+- **Documentation:** [KTON Gitbook](https://github.com/KTON-IO/KTON-Gitbook)
 
 ---
 
@@ -132,7 +134,7 @@ KTON employs a decentralized governance model with advanced features:
 
 **KTON vs. Other TON Liquid Staking Protocols**
 
-| Feature                | KTON          | Tonstakers      | TON Whales    |
+| Feature                | KTON          | Protocol B      | Protocol C    |
 |------------------------|---------------|-----------------|---------------|
 | **Architecture**       | LST V2 (modular, institutional-grade) | LST V1 | Pool-based |
 | **Minimum Stake**      | 1 TON         | 1 TON           | 50 TON        |
