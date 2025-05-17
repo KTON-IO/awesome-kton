@@ -46,6 +46,7 @@ This is an Awesome List-style webpage for KTON, the institutional-grade liquid s
 - **App:** [app.kton.io](https://app.kton.io/)
 - **TON Staking:** [ton.org/en/stake](https://ton.org/en/stake)
 - **TON App Listing:** [ton.app/staking/kton-lst?id=4695](https://ton.app/staking/kton-lst?id=4695)
+- **Wikipedia:** [TON Blockchain KTON](https://en.wikipedia.org/wiki/TON_(blockchain)#KTON)
 - **Whitepaper & Docs:** [github.com/KTON-IO/liquid-staking-contract](https://github.com/KTON-IO/liquid-staking-contract)
 - **Medium Blog:** [medium.com/kton-io](https://medium.com/kton-io)
 - **Gitbook Pages:** [kton-io.github.io](https://kton-io.github.io/)
