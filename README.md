@@ -1,219 +1,128 @@
 # Awesome KTON: The Ultimate Resource for KTON and Liquid Staking on TON
 
-This is an Awesome List-style webpage for KTON, the institutional-grade liquid staking protocol on The Open Network (TON). Here you'll find a comprehensive, well-structured, and up-to-date resource hub for everything related to KTON, including technical documentation, DeFi integrations, governance, security, developer resources, and community links.
-
----
-
-## Overview
-
-**KTON** is a next-generation liquid staking protocol purpose-built for the TON blockchain. Incubated by TONX and powered by the latest LST V2 smart contract architecture, KTON enables users to stake TON, receive liquid staking tokens ($KTON), and unlock liquidity without sacrificing staking rewards. KTON is designed for both retail and institutional users, offering enterprise-grade security, seamless Telegram integration, and a robust DeFi ecosystem.
-
----
-
-## Why KTON?
-
-- **Unmatched Flexibility:** Stake as little as 1 TON, with no lock-up period.
-- **High Yield, High Liquidity:** Earn staking rewards while using $KTON in DeFi protocols.
-- **Institutional-Grade Security:** Audited smart contracts, advanced governance, and risk controls.
-- **Telegram Integration:** Easy onboarding for 950M+ Telegram users via Mini Apps.
-- **DeFi Ready:** $KTON is compatible with leading TON DEXs, lending, and yield protocols.
-- **First Mover:** The first public staking protocol on TON since 2022.
-
----
+A curated list of awesome KTON resources, tools, and services for the TON ecosystem.
 
 ## Contents
 
-- [Awesome KTON: The Ultimate Resource for KTON and Liquid Staking on TON](#awesome-kton-the-ultimate-resource-for-kton-and-liquid-staking-on-ton)
-  - [Overview](#overview)
-  - [Why KTON?](#why-kton)
-  - [Contents](#contents)
-  - [KTON Basics](#kton-basics)
-  - [Technical Architecture](#technical-architecture)
-  - [DeFi Integrations](#defi-integrations)
-  - [Governance \& Tokenomics](#governance--tokenomics)
-  - [Security \& Audits](#security--audits)
-  - [Developer Resources](#developer-resources)
-  - [TON Ecosystem Tools \& Services](#ton-ecosystem-tools--services)
-    - [Wallets](#wallets)
-    - [Block Explorers \& Analytics](#block-explorers--analytics)
-    - [Market Data \& Aggregators](#market-data--aggregators)
-    - [Decentralized Exchanges (DEXs)](#decentralized-exchanges-dexs)
-    - [App Discovery \& Integration](#app-discovery--integration)
-  - [Comparisons](#comparisons)
-  - [Community \& Social](#community--social)
-  - [Media Kit \& Branding](#media-kit--branding)
-  - [License](#license)
+- [Overview](#overview)
+- [Official Resources](#official-resources)
+- [Smart Contracts](#smart-contracts)
+- [DeFi Integrations](#defi-integrations)
+- [Developer Resources](#developer-resources)
+- [TON Ecosystem Tools](#ton-ecosystem-tools)
+- [Community & Social](#community--social)
+- [Media Kit](#media-kit)
+- [Comparisons](#comparisons)
 
----
+## Overview
 
-## KTON Basics
+**KTON** is a next-generation liquid staking protocol for the TON ecosystem, designed to unlock liquidity for both institutional and retail users. With its liquid staking token $KTON, users earn staking rewards while accessing TON's expanding DeFi landscape.
 
-- **Website:** [kton.io](https://kton.io/)
-- **App:** [app.kton.io](https://app.kton.io/)
-- **TON Staking:** [ton.org/en/stake](https://ton.org/en/stake)
-- **TON App Listing:** [ton.app/staking/kton-lst?id=4695](https://ton.app/staking/kton-lst?id=4695)
-- **Wikipedia:** [TON Blockchain KTON](https://en.wikipedia.org/wiki/TON_(blockchain)#KTON)
-- **Whitepaper & Docs:** [github.com/KTON-IO/liquid-staking-contract](https://github.com/KTON-IO/liquid-staking-contract)
-- **Medium Blog:** [medium.com/kton-io](https://medium.com/kton-io)
-- **Gitbook Pages:** [kton-io.github.io](https://kton-io.github.io/)
+## Official Resources
 
-**What is KTON?**  
-KTON is a liquid staking protocol on TON, allowing users to deposit TON and receive $KTON tokens. These tokens represent a claim on the staked assets and can be used across DeFi protocols for trading, lending, and yield strategies, all while continuing to earn staking rewards. There is no minimum lock-up, and users can start with as little as 1 TON.
+- [Website](https://kton.io/) - Official KTON website
+- [dApp](https://app.kton.io/) - KTON web application
+- [Telegram Mini App](https://t.me/ktonio_bot) - KTON Telegram bot
+- [TON App Listing](https://ton.app/staking/kton-lst?id=4695) - KTON on TON Apps
+- [Wikipedia](https://en.wikipedia.org/wiki/TON_(blockchain)#KTON) - KTON on Wikipedia
+- [Whitepaper & Docs](https://github.com/KTON-IO/liquid-staking-contract) - Technical documentation
+- [Medium Blog](https://medium.com/kton-io) - KTON blog posts
+- [Gitbook](https://kton-io.github.io/) - KTON documentation
 
----
+## Smart Contracts
 
-## Technical Architecture
+- **Contract Address:** `EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw`
+- **Icon:** [https://app.kton.io/logo-256x256.png](https://app.kton.io/logo-256x256.png)
+- [TON Viewer](https://tonviewer.com/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw) - View on TON Viewer
+- [TONScan](https://tonscan.org/jetton/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw) - View on TONScan
+- [GitHub Repository](https://github.com/KTON-IO/liquid-staking-contract) - Open source contracts
+- [Audit Report](https://github.com/KTON-IO/liquid-staking-contract/blob/v2/KTON-Final-Audit-Report.pdf) - Security audit
 
-KTON is built on the **LST V2 (Liquid Staking Token Version 2)** framework developed by the TonCore (NEWTON) team. This architecture is modular, security-focused, and designed for both institutional and retail adoption. Key features include:
-
-- **Separation of Roles:** Distinct smart contracts for pool management, controllers, and governance.
-- **Nominator Pools:** Users deposit TON, receive $KTON, and participate in validation rewards.
-- **Controller Contracts:** Interface with TON Elector for validator operations.
-- **Governance Contracts:** Manage risk, fees, upgrades, and treasury.
-- **Advanced Risk Management:** Emergency halter role, treasury separation, and SudoerExecutor for secure upgrades.
-- **Instant Withdrawals:** Users can swap $KTON for TON with a dynamic fee for instant liquidity.
-- **MEV Optimization:** Maximizes staking returns through validator efficiency.
-- **Security Audited:** Comprehensive audit completed in April 2025; all critical issues addressed.
-
-For a visual overview and technical deep dive, see the [KTON GitHub repository](https://github.com/KTON-IO/liquid-staking-contract).
-
----
+**Token Metadata:**
+```json
+{
+  "address": "0:6e2215cd36459ff405bd9a234635348efee159db77a37c85ab89e5e07b97fbdf",
+  "name": "KTON",
+  "symbol": "KTON",
+  "decimals": "9",
+  "image": "https://app.kton.io/logo-256x256.png",
+  "description": "KTON, The Liquid Staking Token of TON.",
+  "websites": ["https://app.kton.io"]
+}
+```
 
 ## DeFi Integrations
 
-KTON is designed to be a core building block in the TON DeFi ecosystem. $KTON can be used as:
+### DEX Trading
+- [STON.fi](https://app.ston.fi/swap?ft=TON&tt=EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw) - Trade KTON on STON.fi
+- [DeDust](https://dedust.io/swap/TON/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw) - Trade KTON on DeDust
 
-- **Collateral in Lending Protocols**
-- **Liquidity on DEXs:** Trade $KTON on [STON.fi](https://app.ston.fi/swap?ft=TON&tt=EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw), [DeDust](https://dedust.io/swap/TON/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw)
-- **Yield Farming & Aggregators**
-- **DeFi Apps:** Integrated with major TON DeFi protocols, and compatible with new entrants like Ethena and Curve Finance.
-
-**On-chain Data:**  
-- [TON Viewer: KTON Jetton](https://tonviewer.com/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw)
-- [TONScan: KTON Contract](https://tonscan.org/jetton/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw)
-
----
-
-## Governance & Tokenomics
-
-KTON employs a decentralized governance model with advanced features:
-
-- **DAO Governance:** Holders of $KTON will participate in protocol upgrades and risk management.
-- **Dual-Token Model:** Future roadmap includes a governance token in addition to $KTON.
-- **Treasury Management:** Dedicated smart contract for fee collection and protocol funding.
-- **Role-Based Controls:** Emergency halter, sudoer (upgrade), approver, and treasury roles for robust protocol management.
-- **Rewards Distribution:** Flexible profit-sharing between stakeholders, with both static and dynamic (revenue share) models.
-
----
-
-## Security & Audits
-
-**Security First:**  
-- **Comprehensive Audit:** KTON V2 underwent a full audit in April 2025; no critical vulnerabilities found. All issues were addressed prior to mainnet launch.
-- **Role-Based Access:** Separation of duties for critical operations (halt, upgrade, treasury).
-- **Time-Delayed Upgrades:** SudoerExecutor ensures safe, auditable contract upgrades.
-- **Circuit Breakers:** Halter can pause deposits and withdrawals in emergencies.
-- **Enhanced Error Handling:** Safer message handling, descriptive error codes, and improved test coverage.
-
-**Key Audit Highlights:**  
-- No critical vulnerabilities
-- Enhanced role restrictions
-- Strong validation and error handling
-- Modular and upgradable contract design
-
-**Audit Report:**
-- [KTON Final Audit Report](https://github.com/KTON-IO/liquid-staking-contract/blob/v2/KTON-Final-Audit-Report.pdf)
-
----
+### Market Data
+- [CoinGecko](https://www.coingecko.com/en/coins/kton) - KTON price data
+- [DeFiLlama](https://defillama.com/chain/TON) - TON DeFi analytics
 
 ## Developer Resources
 
-- **GitHub (Protocol & Contracts):** [KTON-IO/liquid-staking-contract](https://github.com/KTON-IO/liquid-staking-contract)
-- **Organization:** [KTON-IO](https://github.com/KTON-IO)
-- **API & SDK:** See [TONX API](https://tonx.ai/) for RPC and developer tools used by KTON and other TON dApps.
-- **Telegram Mini App:** [@ktonio_bot](https://t.me/ktonio_bot) for instant staking and DeFi access in Telegram.
-- **Community Support:** [KTON Group Telegram](https://t.me/kton_group)
-- **Documentation:** [KTON Gitbook](https://github.com/KTON-IO/KTON-Gitbook)
+- [KTON-IO Organization](https://github.com/KTON-IO) - GitHub organization
+- [KTON Gitbook](https://github.com/KTON-IO/KTON-Gitbook) - Developer documentation
 
----
-
-## TON Ecosystem Tools & Services
+## TON Ecosystem Tools
 
 ### Wallets
-- **Tonkeeper:** [Official TON Wallet](https://tonkeeper.com/) - The most popular TON wallet with Telegram integration
-- **MyTonWallet:** [Web-based TON Wallet](https://mytonwallet.io/) - Browser extension and web wallet
-- **iMe:** [Multi-chain Wallet](https://imem.app/) - TON wallet with social features
-- **Bitget Wallet:** [Exchange Wallet](https://www.bitget.com/wallet) - TON support in Bitget's wallet
-- **Tonhub:** [Mobile TON Wallet](https://ton.app/) - Native TON mobile wallet
-- **Ledger:** [Hardware Wallet](https://www.ledger.com/) - Hardware wallet with TON support
+- [Tonkeeper](https://tonkeeper.com/) - Official TON wallet with Telegram integration
+- [MyTonWallet](https://mytonwallet.io/) - Web-based TON wallet
+- [iMe](https://imem.app/) - Multi-chain wallet with TON support
+- [Bitget Wallet](https://www.bitget.com/wallet) - Exchange wallet with TON support
+- [Tonhub](https://ton.app/) - Native TON mobile wallet
+- [Ledger](https://www.ledger.com/) - Hardware wallet with TON support
 
-### Block Explorers & Analytics
-- **Tonviewer:** [TON Block Explorer](https://tonviewer.com/) - Comprehensive TON blockchain explorer
-- **Tonscan:** [TON Analytics](https://tonscan.org/) - Advanced TON blockchain analytics
-- **DYOR.io:** [TON Analytics Platform](https://dyor.io/) - DeFi analytics and portfolio tracking
-- **Whales Explorer:** [TON Analytics](https://whales.ton.org/) - TON blockchain analytics by TON Foundation
-- **OKX Explorer:** [OKX TON Explorer](https://www.okx.com/web3/explorer/ton) - OKX's TON blockchain explorer
-- **Dton:** [TON Data Analytics](https://dton.io/) - TON blockchain data and analytics
+### Block Explorers
+- [Tonviewer](https://tonviewer.com/) - Comprehensive TON blockchain explorer
+- [Tonscan](https://tonscan.org/) - Advanced TON blockchain analytics
+- [DYOR.io](https://dyor.io/) - DeFi analytics and portfolio tracking
+- [Whales Explorer](https://whales.ton.org/) - TON blockchain analytics
+- [OKX Explorer](https://www.okx.com/web3/explorer/ton) - OKX's TON explorer
+- [Dton](https://dton.io/) - TON blockchain data analytics
 
-### Market Data & Aggregators
-- **CoinGecko:** [KTON Price Data](https://www.coingecko.com/en/coins/kton) - KTON price tracking and market data
-- **DeFiLlama:** [TON DeFi Analytics](https://defillama.com/chain/TON) - TON DeFi protocol analytics and TVL
+### DEXs
+- [STON.fi](https://app.ston.fi/) - Leading TON decentralized exchange
+- [DeDust.io](https://dedust.io/) - TON-based decentralized exchange
+- [TONCO](https://tonco.io/) - TON decentralized exchange
+- [Titan](https://titan.trade/) - TON trading platform
+- [xDelta](https://xdelta.io/) - TON decentralized exchange
+- [Swap Coffee](https://swapcoffee.io/) - TON trading platform
 
-### Decentralized Exchanges (DEXs)
-- **STON.fi:** [TON DEX](https://app.ston.fi/) - Leading TON decentralized exchange
-- **DeDust.io:** [TON DEX](https://dedust.io/) - TON-based decentralized exchange
-- **TONCO:** [TON DEX](https://tonco.io/) - TON decentralized exchange
-- **Titan:** [TON DEX](https://titan.trade/) - TON trading platform
-- **xDelta:** [TON DEX](https://xdelta.io/) - TON decentralized exchange
-- **Swap Coffee:** [TON DEX](https://swapcoffee.io/) - TON trading platform
+### App Discovery
+- [TON Apps Center](https://ton.app/) - Official TON applications directory
+- [Pyth](https://pyth.network/) - Price oracle network for TON DeFi
 
-### App Discovery & Integration
-- **TON Apps Center:** [TON App Directory](https://ton.app/) - Official TON applications directory
-- **Pyth:** [Oracle Network](https://pyth.network/) - Price oracle network supporting TON DeFi protocols
+## Community & Social
 
----
+- [Telegram Group](https://t.me/kton_group) - KTON community group
+- [Telegram Channel](https://t.me/kton_channel) - KTON announcements
+- [Twitter/X](https://x.com/kton_io) - KTON official Twitter
+- [TONX](https://tonx.ai/) - KTON incubator
+
+## Media Kit
+
+- [KTON Media Kit](https://www.notion.so/1a1811267273809b8145e1d4d457db77?pvs=21) - Logos, visuals, and branding assets
+- [KTON Public Deck](https://docsend.com/v/tny7v/kton_public) - Public presentation deck
 
 ## Comparisons
 
-**KTON vs. Other TON Liquid Staking Protocols**
-
-| Feature                | KTON          | Protocol B      | Protocol C    |
-|------------------------|---------------|-----------------|---------------|
-| **Architecture**       | LST V2 (modular, institutional-grade) | LST V1 | Pool-based |
-| **Minimum Stake**      | 1 TON         | 1 TON           | 50 TON        |
-| **Instant Withdrawals**| Yes           | Yes             | Yes           |
-| **Security Audit**     | 2025, full audit | Partial        | Unknown       |
-| **Governance**         | DAO, dual-token roadmap | Limited      | Centralized   |
-| **DeFi Integrations**  | DEXs, lending, yield | DEXs         | DEXs          |
-| **Telegram Integration**| Mini App      | No              | No            |
-| **First Mover**        | Yes (since 2022) | No             | No            |
-
-KTON sets the standard for modular, upgradable, and security-focused liquid staking on TON, with extensive DeFi and Telegram integrations.
-
----
-
-## Community \& Social
-
-- **Telegram Group:** [@kton_group](https://t.me/kton_group)
-- **Telegram Mini App:** [@ktonio_bot](https://t.me/ktonio_bot)
-- **Telegram Channel:** [@kton_channel](https://t.me/kton_channel)
-- **Twitter/X:** [@kton_io](https://x.com/kton_io)
-- **TONX (Incubator):** [tonx.ai](https://tonx.ai/)
-
----
-
-## Media Kit \& Branding
-
-- **Logos & Symbols:** See [KTON Media Kit](https://tonx.notion.site/KTON-Media-Kit-1a1811267273809b8145e1d4d457db77) for official SVG/PNG assets, color palettes, and usage guidelines.
-- **Wordmarks:** Available in multiple formats for use in presentations, websites, and integrations.
-
-
----
-
-**Awesome KTON** aims to be the go-to resource for users, developers, and institutions seeking to maximize the potential of liquid staking on TON. For the latest updates, follow the official channels and contribute to the growing KTON ecosystem!
+| Feature | KTON | Protocol B | Protocol C |
+|---------|------|------------|------------|
+| Architecture | LST V2 (modular) | LST V1 | Pool-based |
+| Minimum Stake | 1 TON | 1 TON | 50 TON |
+| Instant Withdrawals | Yes | Yes | Yes |
+| Security Audit | 2025, full audit | Partial | Unknown |
+| Governance | DAO, dual-token | Limited | Centralized |
+| DeFi Integrations | DEXs, lending, yield | DEXs | DEXs |
+| Telegram Integration | Mini App | No | No |
+| First Mover | Yes (since 2022) | No | No |
 
 ---
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE). Feel free to use, share, and contribute to this project.
+This repository is licensed under the [MIT License](LICENSE).
