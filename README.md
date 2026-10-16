@@ -105,7 +105,7 @@ A curated list of awesome KTON resources, tools, and services for the TON ecosys
 
 ## Media Kit
 
-- [KTON Media Kit](https://www.notion.so/1a1811267273809b8145e1d4d457db77?pvs=21) - Logos, visuals, and branding assets
+- [KTON Media Kit](https://kton.io/media-kit/) - Logos, colours, naming and key facts
 - [KTON Public Deck](https://docsend.com/v/tny7v/kton_public) - Public presentation deck
 
 ## Comparisons
