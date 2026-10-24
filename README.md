@@ -101,7 +101,6 @@ A curated list of awesome KTON resources, tools, and services for the TON ecosys
 - [Telegram Group](https://t.me/kton_group) - KTON community group
 - [Telegram Channel](https://t.me/kton_channel) - KTON announcements
 - [Twitter/X](https://x.com/kton_io) - KTON official Twitter
-- [TONX](https://tonx.ai/) - KTON incubator
 
 ## Media Kit
 
