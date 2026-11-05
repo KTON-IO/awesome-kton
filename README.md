@@ -27,7 +27,7 @@ A curated list of awesome KTON resources, tools, and services for the TON ecosys
 - [Wikipedia](https://en.wikipedia.org/wiki/TON_(blockchain)#KTON) - KTON on Wikipedia
 - [Whitepaper & Docs](https://github.com/KTON-IO/liquid-staking-contract) - Technical documentation
 - [Medium Blog](https://medium.com/kton-io) - KTON blog posts
-- [Gitbook](https://kton-io.github.io/) - KTON documentation
+- [Gitbook](https://kton-io.github.io/KTON-Gitbook/) - KTON documentation
 
 ## Smart Contracts
 
