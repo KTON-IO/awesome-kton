@@ -53,9 +53,9 @@ A curated list of awesome KTON resources, tools, and services for the TON ecosys
 
 ## DeFi Integrations
 
-### DEX Trading
-- [STON.fi](https://app.ston.fi/swap?ft=TON&tt=EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw) - Trade KTON on STON.fi
-- [DeDust](https://dedust.io/swap/TON/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw) - Trade KTON on DeDust
+### Turning KTON back into TON
+- [Withdraw in the dApp](https://app.kton.io/) - Redeem KTON through the pool at its own rate: **Withdraw now** pays at once from the pool's idle balance for the instant-withdrawal fee (0.2% as of November 2026, shown before you sign), or wait for the next rotation and pay no fee.
+- Please do not sell KTON on a DEX. DEX pools set their own price for KTON, and it has been well below the pool's rate: on 2026-11-05 selling on STON.fi paid about 6% less than redeeming.
 
 ### Market Data
 - [CoinGecko](https://www.coingecko.com/en/coins/kton) - KTON price data
@@ -116,7 +116,7 @@ A curated list of awesome KTON resources, tools, and services for the TON ecosys
 | Instant Withdrawals | Yes | Yes | Yes |
 | Security Audit | 2025, full audit | Partial | Unknown |
 | Governance | DAO, dual-token | Limited | Centralized |
-| DeFi Integrations | DEXs, lending, yield | DEXs | DEXs |
+| DeFi Integrations | Lending, yield | DEXs | DEXs |
 | Telegram Integration | Mini App | No | No |
 | First Mover | Yes (since 2022) | No | No |
 
