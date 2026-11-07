@@ -28,14 +28,21 @@ A curated list of resources for KTON, the liquid staking protocol on The Open Ne
 - [dApp](https://app.kton.io/) - Stake and withdraw
 - [Telegram Mini App](https://t.me/ktonio_bot) - KTON in Telegram
 - [Documentation](https://docs.kton.io/) - KTON documentation
+- [Guides](https://kton.io/learn/) - How staking, fees, APY and withdrawals work
+- [Website in Russian](https://kton.io/ru/) - KTON на русском
 - [KTON Premium](https://premium.kton.io/) - Staking for vesting contracts
+- [Vesting Wallet](https://vesting.kton.io/) - Create a TON vesting wallet and stake it in KTON Premium
 - [TON App Listing](https://ton.app/staking/kton-lst?id=4695) - KTON on TON Apps
+- [TonStake](https://tonstake.com/) - Compares TON staking pools by on-chain APY and fees; run by the KTON team
+- Security contact: [contact@kton.io](mailto:contact@kton.io) ([security.txt](https://kton.io/.well-known/security.txt))
 
 ## Smart Contracts
 
 - **KTON pool:** [`EQA9HwEZD_tONfVz6lJS0PVKR5viEiEGyj9AuQewGQVnXPg0`](https://tonviewer.com/EQA9HwEZD_tONfVz6lJS0PVKR5viEiEGyj9AuQewGQVnXPg0)
 - **KTON token (jetton master):** [`EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw`](https://tonviewer.com/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw) ([Tonscan](https://tonscan.org/jetton/EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw))
-- [Source code](https://github.com/KTON-IO/liquid-staking-contract) - Open source contracts
+- **KTON Premium pool:** [`EQDsW2P6nuP1zopKoNiCYj2xhqDan0cBuULQ8MH4o7dBt_7a`](https://tonviewer.com/EQDsW2P6nuP1zopKoNiCYj2xhqDan0cBuULQ8MH4o7dBt_7a)
+- **PKTON token (jetton master):** [`EQCtD-q8vItSYffdO3p23-gcnFpPIpcGx9tE1ImQ3f3thV4l`](https://tonviewer.com/EQCtD-q8vItSYffdO3p23-gcnFpPIpcGx9tE1ImQ3f3thV4l)
+- [Source code](https://github.com/KTON-IO/liquid-staking-contract) - Open source contracts; the KTON Premium pool runs commit [`1d919bd`](https://github.com/KTON-IO/liquid-staking-contract/tree/1d919bdf1cc3160cb228ad87d67d141aab29b248) on the `v2-for-vesting` branch
 - [Audit Report](https://github.com/KTON-IO/liquid-staking-contract/blob/v2/KTON-Final-Audit-Report.pdf) - TonBit, 2025
 
 **Token Metadata** ([app.kton.io/jetton-metadata.json](https://app.kton.io/jetton-metadata.json), the URI stored in the jetton master `0:6e2215cd36459ff405bd9a234635348efee159db77a37c85ab89e5e07b97fbdf`):
@@ -62,6 +69,8 @@ A curated list of resources for KTON, the liquid staking protocol on The Open Ne
 ## Developer Resources
 
 - [KTON SDK](https://github.com/KTON-IO/KTON-SDK) - TypeScript SDK on npm as [`kton-sdk`](https://www.npmjs.com/package/kton-sdk): stake, unstake, rates and pool data for both pools
+- [KTON Skills](https://github.com/KTON-IO/kton-skills) - Agent skill (Claude Code, Codex and others) to stake and unstake KTON, every transaction signed in your own wallet
+- [Vesting front end](https://github.com/KTON-IO/vesting) - Source of vesting.kton.io
 - [KTON-IO Organization](https://github.com/KTON-IO) - GitHub organization
 - [KTON Documentation](https://docs.kton.io/) - Developer documentation
 
